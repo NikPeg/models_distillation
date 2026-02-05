@@ -56,6 +56,7 @@
 1. Запуск baseline на Z80 эмуляторе
 2. Обучение micro-модели для Arduino
 3. Измерение trade-offs: скорость vs качество
+4. Теоретический анализ: качество через offloading (SD/Flash) за счёт жертвы latency
 
 Детали в `Homework/HW1/`
 

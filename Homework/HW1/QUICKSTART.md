@@ -98,3 +98,7 @@ python3 export_to_arduino.py \
 - `report.md` — полный анализ с расчётами
 - `experiments/plan.md` — детальный план экспериментов
 - `experiments/README.md` — инструкции по коду
+
+## За рамками основных экспериментов
+
+В report.md есть секция "Альтернативный подход" про offloading на SD/Flash для улучшения качества за счёт жертвы latency (1 token/min). Это не входит в основной plan, но интересно как теоретический анализ trade-offs.
