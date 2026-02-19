@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Baseline",
+    "accuracy": 0.28657894736842104,
+    "loss": 2.459578702324315,
+    "parameters": 144871,
+    "architecture": "256\u2192256\u2192192\u2192128\u219239",
+    "inference_examples": [
+      {
+        "query": "hello",
+        "predicted": "H",
+        "confidence": 0.3453029692173004
+      },
+      {
+        "query": "hi",
+        "predicted": "H",
+        "confidence": 0.2791571021080017
+      },
+      {
+        "query": "hey",
+        "predicted": "H",
+        "confidence": 0.3481469750404358
+      },
+      {
+        "query": "how are you",
+        "predicted": "O",
+        "confidence": 0.27691420912742615
+      },
+      {
+        "query": "how r u",
+        "predicted": "Y",
+        "confidence": 0.1569705605506897
+      }
+    ],
+    "performance": {
+      "flash_bytes": 37448,
+      "flash_kb": 36.5703125,
+      "flash_usage_percent": 114.2822265625,
+      "flash_ok": false,
+      "sram_bytes": 1024,
+      "sram_kb": 1.0,
+      "sram_usage_percent": 50.0,
+      "sram_ok": true,
+      "cycles": 8950022,
+      "latency_ms": 559.376375,
+      "throughput_per_sec": 1.7877051028477917,
+      "fits_on_arduino": false
+    }
+  },
+  {
+    "name": "Pruned",
+    "accuracy": 0.35072368421052635,
+    "loss": 2.3353219408737984,
+    "parameters": 54023,
+    "architecture": "256\u2192128\u219296\u219264\u219239",
+    "inference_examples": [
+      {
+        "query": "hello",
+        "predicted": "H",
+        "confidence": 0.6564362049102783
+      },
+      {
+        "query": "hi",
+        "predicted": "H",
+        "confidence": 0.5793809294700623
+      },
+      {
+        "query": "hey",
+        "predicted": "H",
+        "confidence": 0.684810221195221
+      },
+      {
+        "query": "how are you",
+        "predicted": "N",
+        "confidence": 0.35792917013168335
+      },
+      {
+        "query": "how r u",
+        "predicted": "H",
+        "confidence": 0.348406046628952
+      }
+    ],
+    "performance": {
+      "flash_bytes": 14160,
+      "flash_kb": 13.828125,
+      "flash_usage_percent": 43.212890625,
+      "flash_ok": true,
+      "sram_bytes": 1024,
+      "sram_kb": 1.0,
+      "sram_usage_percent": 50.0,
+      "sram_ok": true,
+      "cycles": 3332422,
+      "latency_ms": 208.276375,
+      "throughput_per_sec": 4.801312678886408,
+      "fits_on_arduino": true
+    }
+  },
+  {
+    "name": "Binary",
+    "accuracy": 0.11815789473684211,
+    "loss": 3.5446785374691614,
+    "parameters": 54023,
+    "architecture": "256\u2192128\u219296\u219264\u219239",
+    "inference_examples": [
+      {
+        "query": "hello",
+        "predicted": "N",
+        "confidence": 0.03047160990536213
+      },
+      {
+        "query": "hi",
+        "predicted": "N",
+        "confidence": 0.030286554247140884
+      },
+      {
+        "query": "hey",
+        "predicted": "N",
+        "confidence": 0.0303618386387825
+      },
+      {
+        "query": "how are you",
+        "predicted": "N",
+        "confidence": 0.030282482504844666
+      },
+      {
+        "query": "how r u",
+        "predicted": "N",
+        "confidence": 0.03039594553411007
+      }
+    ],
+    "performance": {
+      "flash_bytes": 14160,
+      "flash_kb": 13.828125,
+      "flash_usage_percent": 43.212890625,
+      "flash_ok": true,
+      "sram_bytes": 1024,
+      "sram_kb": 1.0,
+      "sram_usage_percent": 50.0,
+      "sram_ok": true,
+      "cycles": 3332422,
+      "latency_ms": 208.276375,
+      "throughput_per_sec": 4.801312678886408,
+      "fits_on_arduino": true
+    }
+  }
+]

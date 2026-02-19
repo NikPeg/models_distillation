@@ -1,0 +1,16 @@
+run_id,success,val_acc,stopped_at,elapsed_time,output_path,epochs,warmup_epochs,lr,patience,batch_size
+4,True,0.4059,50,102.5884017944336,../results/quick_grid/run_04.pt,50,10,0.0001,15,32
+8,True,0.4038,49,102.7272560596466,../results/quick_grid/run_08.pt,50,10,0.0002,30,32
+3,True,0.4005,43,88.13874316215515,../results/quick_grid/run_03.pt,50,10,0.0002,15,32
+6,True,0.3993,32,68.62758803367615,../results/quick_grid/run_06.pt,50,10,0.0002,10,32
+1,True,0.3895,20,41.2937068939209,../results/quick_grid/run_01.pt,50,10,0.001,15,32
+13,True,0.3851,36,38.79418087005615,../results/quick_grid/run_13.pt,50,10,0.0002,15,64
+14,True,0.3845,28,57.9610869884491,../results/quick_grid/run_14.pt,50,15,0.0005,20,32
+10,True,0.3832,27,56.80566906929016,../results/quick_grid/run_10.pt,50,15,0.0002,15,32
+11,True,0.3829,32,67.56639218330383,../results/quick_grid/run_11.pt,50,20,0.0002,15,32
+9,True,0.3791,39,81.55611991882324,../results/quick_grid/run_09.pt,50,5,0.0002,15,32
+12,True,0.3785,27,109.54036712646484,../results/quick_grid/run_12.pt,50,10,0.0002,15,16
+7,True,0.3709,42,88.71181178092957,../results/quick_grid/run_07.pt,50,10,0.0002,20,32
+2,True,0.3664,23,46.99173307418823,../results/quick_grid/run_02.pt,50,10,0.0005,15,32
+15,True,0.3539,50,52.356913805007935,../results/quick_grid/run_15.pt,50,5,0.0001,25,64
+5,True,0.3434,50,106.69630908966064,../results/quick_grid/run_05.pt,50,10,5e-05,15,32
